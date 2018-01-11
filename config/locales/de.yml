@@ -86,7 +86,7 @@ de:
         checkout_complete: Bestellung Erfolgreich
         completed_at: Abgeschlossen am
         considered_risky: Riskant
-        coupon_code: Gutscheincode
+        coupon_code: Aktionscode
         created_at: Bestelldatum
         email: Kunden E-Mail
         included_tax_total: enthaltene Steuer
@@ -566,27 +566,27 @@ de:
         edit: Bearbeiten
         save: Speichern
       add: Hinzufügen
-      cancel: abbrechen
+      cancel: Abbrechen
       continue: Weiter
-      create: erstellen
+      create: Erstellen
       delete: Löschen
       destroy: löschen
       edit: Bearbeiten
-      list: auflisten
+      list: Auflisten
       listing: Liste
-      new: neu
+      new: Neu
       refund: Gutschrift
       remove: Entfernen
       save: Speichern
       ship: verschicken
       split: Aufteilen
-      update: aktualisieren
+      update: Aktualisieren
     activate: Aktivieren
     active: Aktiv
     add: Hinzufügen
     add_action_of_type: Aktion hinzufügen
     add_country: Land hinzufügen
-    add_coupon_code: Gutscheincode hinzufügen
+    add_coupon_code: Aktionscode hinzufügen
     add_new_header: Header hinzufügen
     add_new_style: Stil hinzufügen
     add_one: Hinzufügen
@@ -796,15 +796,15 @@ de:
       ITA: Italien
       US: Amerika
     coupon: Gutschein
-    coupon_code: Gutschein-Code
-    coupon_code_already_applied: Der Gutschein-Code wurde bereits bei dieser Bestellung eingelöst
+    coupon_code: Aktionscode
+    coupon_code_already_applied: Der Aktionscode wurde bereits bei dieser Bestellung eingelöst
     coupon_code_applied: Der Gutschein wurde erfolgreich zu Ihrer Bestellung zugeordnet.
-    coupon_code_better_exists: Der zuvor angegebene Gutscheincode ergibt ein besseres Angebot
-    coupon_code_expired: Der Gutschein-Code ist abgelaufen
-    coupon_code_max_usage: Limit für Gutschein-Codes erreicht
-    coupon_code_not_eligible: Der Gutschein-Code kann nicht auf diese Bestellung angewendet werden
-    coupon_code_not_found: Der eingegebene Gutschein-Code existiert nicht. Bitte versuchen Sie es noch einmal.
-    coupon_code_unknown_error: Der Gutschein-Code verursachte ein unbekannntes Problem
+    coupon_code_better_exists: Der zuvor angegebene Aktionscode ergibt ein besseres Angebot
+    coupon_code_expired: Der Aktionscode ist abgelaufen
+    coupon_code_max_usage: Limit für Aktionscodes erreicht
+    coupon_code_not_eligible: Der Aktionscode kann nicht auf diese Bestellung angewendet werden
+    coupon_code_not_found: Der eingegebene Aktionscode existiert nicht. Bitte versuchen Sie es noch einmal.
+    coupon_code_unknown_error: Der Aktionscode verursachte ein unbekannntes Problem
     create: Erstellen
     create_a_new_account: Neues Konto erstellen
     create_new_order: Neuer Bestellung
@@ -829,6 +829,7 @@ de:
     customer_return: Rücksendung
     customer_returns: Rücksendungen
     customer_search: Kunden Suche
+    coupon_code_apply: Aktionscode einlösen
     cut: Kürzung
     cvv_response: Verifikationsantwort
     dash:
@@ -879,19 +880,19 @@ de:
     editing_user: Benutzer bearbeiten
     eligibility_errors:
       messages:
-        has_excluded_product: Der Warenkorb enthält Produkt/e, welche die Zuweisung des Gutschein-Codes verhindern.
-        item_total_less_than: Für Bestellungen unter einem Gesamtwert von %{amount} kann dieser Gutschein-Code nicht verwendet werden.
-        item_total_less_than_or_equal: Für Bestellungen von/unter einem Gesamtwert von %{amount} kann dieser Gutschein-Code nicht verwendet werden.
-        item_total_more_than: Der Gutschein-Code ist nur für Bestellungen mit einer Gesamtsumme bis %{amount} gültig.
-        item_total_more_than_or_equal: Der Gutschein-Code ist nur für Bestellungen mit einer Gesamtsumme von/bis %{amount} gültig.
-        limit_once_per_user: Dieser Gutschein-Code ist nur einmal pro Benutzer gültig.
-        missing_product: Für diesen Gutschein-Code fehlen die richtigen Produkte im Warenkorb.
-        missing_taxon: Für diesen Gutschein-Code müssen die Produkte der richtigen Kategorie im Warenkorb liegen.
-        no_applicable_products: Das entsprechende Produkt des Gutschein-Codes liegt nicht im Warenkorb.
-        no_matching_taxons: Für diesen Gutschein-Code muss das Produkt der entsprechenden Kategorie im Warenkorb liegen.
-        no_user_or_email_specified: Für das Hinzufügen des Gutschein-Codes müssen Sie angemeldet/eingeloggt sein.
-        no_user_specified: Für das Hinzufügen des Gutschein-Codes müssen sie eingeloggt sein.
-        not_first_order: Dieser Gutschein-Code ist nur für die Erstbestellung eines Benutzers gültig.
+        has_excluded_product: Der Warenkorb enthält Produkt/e, welche die Zuweisung des Aktionscodes verhindern.
+        item_total_less_than: Für Bestellungen unter einem Gesamtwert von %{amount} kann dieser Aktionscode nicht verwendet werden.
+        item_total_less_than_or_equal: Für Bestellungen von/unter einem Gesamtwert von %{amount} kann dieser Aktionscode nicht verwendet werden.
+        item_total_more_than: Der Aktionscode ist nur für Bestellungen mit einer Gesamtsumme bis %{amount} gültig.
+        item_total_more_than_or_equal: Der Aktionscode ist nur für Bestellungen mit einer Gesamtsumme von/bis %{amount} gültig.
+        limit_once_per_user: Dieser Aktionscode ist nur einmal pro Benutzer gültig.
+        missing_product: Für diesen Aktionscode fehlen die richtigen Produkte im Warenkorb.
+        missing_taxon: Für diesen Aktionscode müssen die Produkte der richtigen Kategorie im Warenkorb liegen.
+        no_applicable_products: Das entsprechende Produkt des Aktionscodes liegt nicht im Warenkorb.
+        no_matching_taxons: Für diesen Aktionscode muss das Produkt der entsprechenden Kategorie im Warenkorb liegen.
+        no_user_or_email_specified: Für das Hinzufügen des Aktionscodes müssen Sie angemeldet/eingeloggt sein.
+        no_user_specified: Für das Hinzufügen des Aktionscodes müssen sie eingeloggt sein.
+        not_first_order: Dieser Aktionscode ist nur für die Erstbestellung eines Benutzers gültig.
     email: E-Mail
     empty: leer
     empty_cart: Warenkorb leeren
@@ -1430,6 +1431,7 @@ de:
     sales_totals: Gesamtumsätze
     save_and_continue: Weiter
     save_my_address: Adresse speichern
+    saving: Speichern
     say_no: false
     say_yes: true
     scope: Bereich
@@ -1582,6 +1584,7 @@ de:
     successfully_signed_up_for_analytics: Erfolgreich für Spree Analytics angemeldet
     successfully_updated: "%{resource} wurde erfolgreich aktualisiert."
     summary: Übersicht
+    tags_placeholder: Tag hinzufügen
     tax: Steuer
     tax_categories: Steuerkategorien
     tax_category: Steuerkategorie
@@ -1602,6 +1605,8 @@ de:
     taxonomy_edit: Produktklassifizierung bearbeiten
     taxonomy_tree_error: Die angeforderte Änderung wurde nicht akzeptiert, und der Baum wurde in seinen vorherigen Zustand versetzt, bitte noch einmal versuchen!
     taxonomy_tree_instruction: "* Rechtsklick auf ein Kind im Baum öffnet das Menü zum Hinzufügen, Löschen oder Sortieren."
+    taxonomy_categories_name: Kategorien
+    taxonomy_brands_name: Marken
     taxons: Produktklassen
     test: Test
     test_mailer:
