@@ -644,8 +644,8 @@ de:
         settings: Einstellungen
         shipping: Lieferung
         stock: Lager
-        taxonomies: Klassifikationen
-        taxons: Klassifikation
+        taxonomies: Hauptkategorien
+        taxons: Unterkategorien
         users: Benutzer
       user:
         account: Konto
@@ -857,7 +857,7 @@ de:
     default_tax: Standard Steuer
     default_tax_zone: Standard Steuergebiet
     delete: Löschen
-    delete_from_taxon: Von Klassifikation löschen
+    delete_from_taxon: Aus Unterkategorie löschen
     deleted: Gelöscht
     deleted_variants_present: In dieser Bestellung sind Artikel enhalten welche nicht länger verfügbar sind.
     delivery: Versand
@@ -1329,8 +1329,8 @@ de:
         description: Bestellung enthält angegebene(s) Produkt(e)
         name: Produkt(e)
       taxon:
-        description: Bestellung muss Produkte einer spezifischen Klassifikation enthalten
-        name: Klassifikation
+        description: Bestellung muss Produkte einer spezifischen Unterkategorie enthalten
+        name: Unterkategorie
       user:
         description: Nur für bestimmte Benutzer erhältlich
         name: Benutzer
