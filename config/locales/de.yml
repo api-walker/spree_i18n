@@ -693,6 +693,7 @@ de:
         regenerate_key: Schlüssel neu generieren
       key_cleared: Schlüssel gelöscht
       key_generated: Schlüssel generiert
+      must_specify_api_key: Es muss ein gültiger API-Schlüssel angegeben werden.
     apply_code: Gutschein anwenden
     approve: Zustimmen
     approved_at: Zugestimmt am
